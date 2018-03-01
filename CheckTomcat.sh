@@ -13,7 +13,7 @@ else
 	echo "tomcat is running"	
 fi
 
-sudo setfacl -m u:amrutha:rwx /var/lib/tomcat8/webapps
+sudo setfacl -m u:jenkins:rwx /var/lib/tomcat8/webapps
 EOF
 
 exit
