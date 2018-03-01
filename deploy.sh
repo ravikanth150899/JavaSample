@@ -1,11 +1,11 @@
 #building
-cd JavaSample/SpringMVCSecurityXML
+cd SpringMVCSecurityXML
 mvn clean install
 
 #renaming war file
 cd target
 echo "build successful"
-mv SpringMVCSecurityXML.war amrutha.war
+mv SpringMVCSecurityXML.war amrutha1.war
 
 #copying war file in remote tomcat webapps
 scp amrutha.war amrutha@54.244.209.186:/var/lib/tomcat8/webapps
