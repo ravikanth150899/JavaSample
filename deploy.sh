@@ -14,7 +14,6 @@ then
 	echo "deploy successful"
 fi
 
-#checking whether java app is deployed
-firefox 54.244.209.186:8080/amrutha
+
 
 
