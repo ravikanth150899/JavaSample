@@ -1,6 +1,9 @@
 pipeline
 {
-    agent ubuntu
+    agent 
+    {
+        label 'ubuntu'
+    }
    /* stage('Pull')
     {
        git 'https://github.com/AMRUTHASALIKE/JavaSample.git'
