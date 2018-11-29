@@ -12,7 +12,8 @@ pipeline
     {
     stage('Build')
     {
-        
+       steps
+        {
        sh 'pwd'
        dir('SpringMVCSecurityXML') 
        {
@@ -21,14 +22,18 @@ pipeline
             sh 'mvn clean install'
        }
        sh 'pwd'
+        }
     }
     stage('Deploy')
     {
+        steps
+        {
         dir('SpringMVCSecurityXML/target') 
        {
             // some block
             sh 'sudo cp SpringMVCSecurityXML.war /var/lib/tomcat8/webapps'
        }
+        }
     }
     }
 }
