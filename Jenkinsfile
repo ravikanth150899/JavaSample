@@ -5,6 +5,8 @@ pipeline
     {
        git 'https://github.com/AMRUTHASALIKE/JavaSample.git'
     }*/
+    stages
+    {
     stage('Build')
     {
         
@@ -24,5 +26,6 @@ pipeline
             // some block
             sh 'sudo cp SpringMVCSecurityXML.war /var/lib/tomcat8/webapps'
        }
+    }
     }
 }
