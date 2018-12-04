@@ -1,10 +1,11 @@
 pipeline
 {
-    agent 
+   /* agent 
     {
         //label 'ubuntu'
         label 'master'
-    }
+    }*/
+    
    /* stage('Pull')
     {
        git 'https://github.com/AMRUTHASALIKE/JavaSample.git'
