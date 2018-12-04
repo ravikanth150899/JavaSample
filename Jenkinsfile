@@ -1,10 +1,10 @@
 pipeline
 {
-   /* agent 
+   agent 
     {
         //label 'ubuntu'
-        label 'master'
-    }*/
+        label 'any'
+    }
     
    /* stage('Pull')
     {
