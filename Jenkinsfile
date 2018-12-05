@@ -24,6 +24,7 @@ pipeline
             // some block
             sh 'pwd'
             sh 'mvn clean install'
+            sh 'touch file1'
        }
        sh 'pwd'
         }
