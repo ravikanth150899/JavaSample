@@ -32,7 +32,7 @@ values ('dbadmin1', '12345', 1);
  
  
 insert into user_roles (ROLE_ID, USERNAME, USER_ROLE)
-values ('1', 'dbuser1', 'USER');
+values ($key, 'dbuser1', 'USER');
  
 insert into user_roles (ROLE_ID, USERNAME, USER_ROLE)
 values ('2', 'dbadmin1', 'ADMIN');
